@@ -8,7 +8,7 @@ import resolvers from "./resolvers";
 import typeDefs from "./schemas";
 import { routes } from "./routes";
 
-mongoose.connect("mongodb+srv://MFTests:mfas22092003@cluster0.snnbg.mongodb.net/graphrest?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://");
 
 const app = express();
 
